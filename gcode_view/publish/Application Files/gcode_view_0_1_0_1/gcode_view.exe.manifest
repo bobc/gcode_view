@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="gcode_view.exe" version="0.1.0.1" publicKeyToken="6a222d2a7c833adf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="gcode_view" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="gcode_view.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="gcode_view.exe" size="43944">
+      <assemblyIdentity name="gcode_view" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oxtN/ntrjr2P/nzdMvdILLj6rKrleCZO0yuz0ZGomiw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="gcode_view.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZARQUON\bob" issuerKeyHash="647229c2616a8f87befccdfe2af4aa9a4328b560" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>69qvd7tWHviyxXAdYrsdE876Cf37uktmodzk22Zs/AM=</DigestValue></Reference></SignedInfo><SignatureValue>lHIch6bttguWo6jw14WknHniz+dLCaqv21UxxkiVhFc+2ieeotJCUHZUZW59jTxdnkVQPcp6uKsEEXvxz33gT4mKKXvJrFE/Et9qzI0T3DGGl3kQzQBAGzuaHDW4v/J6+KlxMvDhMyDE7upM72ILk8Jk7TUj+YNWaEs/v3RX0QM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tikDKYeOPzVZ/94KOm2rWpv30XAtPSW8CXm+roUFqcmIfkUlvVrN3NY8FLXu+PTKznzyQEVg2Y7k+YWLpQLGVSA/HdAJd/JYduhiqdTwNtnnJGQorJ6VSKEX3WVyIng+cLqK8vnp/XNDjbxP6zx4PJS9pZzdPDhN+TlagFMnapk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="03fc6c66dbe4dca1664bbafbfd09face131dbb621d70c5b2f81e56bb77afdaeb" Description="" Url=""><as:assemblyIdentity name="gcode_view.exe" version="0.1.0.1" publicKeyToken="6a222d2a7c833adf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZARQUON\bob</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qrOnU+q9GIy9dH1Ggz+XWX4KhtM3nHLtuozdmgZBxvQ=</DigestValue></Reference></SignedInfo><SignatureValue>pgr8KoS7Pds6nGNpGQb1Pt2qUo4HXgY5dQBT/Qa4ex1q0j+uauVEdv7Hs4yY7vjjMnnJ+IC14VkshXfjGTmrU28RhNdtHstXMUSSbyJLSQMvm3/xAU8zHv81uOKJAoW6wzHrWtTget3oATYBnTsG6Am5p8enE6jWwWweZxAXWQ0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tikDKYeOPzVZ/94KOm2rWpv30XAtPSW8CXm+roUFqcmIfkUlvVrN3NY8FLXu+PTKznzyQEVg2Y7k+YWLpQLGVSA/HdAJd/JYduhiqdTwNtnnJGQorJ6VSKEX3WVyIng+cLqK8vnp/XNDjbxP6zx4PJS9pZzdPDhN+TlagFMnapk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQcwOlbhlQ+7FG1kPB5UWv7TANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAWgBBAFIAUQBVAE8ATgBcAGIAbwBiMB4XDTIwMDMwODE2NTYxMloXDTIxMDMwODIyNTYxMlowITEfMB0GA1UEAx4WAFoAQQBSAFEAVQBPAE4AXABiAG8AYjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtikDKYeOPzVZ/94KOm2rWpv30XAtPSW8CXm+roUFqcmIfkUlvVrN3NY8FLXu+PTKznzyQEVg2Y7k+YWLpQLGVSA/HdAJd/JYduhiqdTwNtnnJGQorJ6VSKEX3WVyIng+cLqK8vnp/XNDjbxP6zx4PJS9pZzdPDhN+TlagFMnapkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCqGuk6O/icOiMi2JjvuLj9H7GZ3tY263E0IQSinCubvawbFqYNosL9hv5XbNz/IRO8BkWW5uC056WIA6uaRK8kaiNI2q//nyIMUf0tp3m+VkVGMAKp1zDvJuyXXA1CJEBwMJVI8kN59LqgR7u9Jl0UAQ0vHEgrgzBpNyjHRMPljw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

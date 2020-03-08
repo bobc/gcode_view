@@ -6,8 +6,9 @@ It does not generate a preview from the Gcode itself. Requires Windows.
 # Installing
 
 1. Checkout repo or download zip of master
-2. Build the solution using Visual Studio and run the .exe
-3. Install by running publish/setup.exe
+2. Either :
+- a) build the solution using Visual Studio and run the .exe
+- b) install by running publish/setup.exe
 
 # Usage
 
